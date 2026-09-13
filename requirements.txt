@@ -1,0 +1,12 @@
+# Core
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+pydantic-settings==2.5.2
+
+# Production server
+gunicorn==23.0.0
+
+# Timezone data fallback (stdlib zoneinfo uses this if the OS tzdata is missing,
+# e.g. on minimal Docker images or Windows).
+tzdata==2024.2
